@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegación Local con Imágenes</title>
+    <style>
+        /* Estilos para la barra de navegación local */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+         /* Estilos para el fondo de la página */
+        body {
+            background-color: #FFFFCC; /* Cambia este valor al color de fondo que desees */
+        }
+
+ 
+
+        .navbar a {
+            float: left;
+            display: inline-flex;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+
+ 
+
+        }
+             /* Estilos para la barra de navegación local */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display:flex;
+            align-items: center; /* Centra verticalmente los elementos */
+        }
+
+ 
+
+        /* Cambiar el color del enlace cuando el mouse pasa sobre él */
+        .navbar a:hover {
+
+            background-color: #ddd;
+            color: black;
+        }
+         /* Estilo para el logotipo */
+        .navbar-logo {
+            float: right;
+            padding: 5px; /* Añade espacio alrededor del logotipo si es necesario */
+        }
+        .centered-text {
+            text-align: center;
+        }
+        .centered-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* Estilos para los marcos alrededor del texto */
+        .text-frame {
+            padding: 0 px; /* Ajusta el espacio del marco según lo necesites */
+            border: 1px solid #333;
+            border-radius: 10px; /* Añade esquinas redondeadas al marco */
+            background-color: white;
+        }
+        /* Elimina el margen superior de los párrafos de texto en el marco */
+        .text-frame p {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body >
+    <div class="navbar">
+    <div class="navbar-logo">
+    <img src="img/por-logo.png" alt="Logo de la empresa" width="150">
+    </div>
+    <a href="#seccion1">YUNGAY</a>
+    <a href="#seccion2">CARHUAZ</a>
+    <a href="#seccion3">HUARAZ</a>
+    </div>
+    <div  style="margin: 0 350px 0 350px;">
+        <div id="seccion1" >
+        <h2>Porvenir - YUNGAY </h2>
+        <img src="img/helado-yun.png" alt="Imagen de la Sección 1" width="800" class="centered-image">
+
+        <p class="centered-text" >¡Descubre la deliciosa joya helada de Yungay: el Helado Porvenir! En el corazón de esta encantadora ciudad, este rincón de placer te espera con una experiencia única que combina el sabor inigualable de su helado artesanal con la majestuosidad del nevado que se alza como fondo.<br>
+        El Helado Porvenir es mucho más que un simple postre. Cada cucharada es un viaje a través de los sabores más exquisitos, preparados con ingredientes de la más alta calidad. Desde los clásicos como vainilla y chocolate hasta sorprendentes creaciones locales que te harán amar los helados de manera diferente.
+        </p>
+
+        <div class="map-container">
+        <!-- Inserta aquí el mapa de Google Maps para la Sección 3 -->
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1694150002504!6m8!1m7!1scHa39ZbfbAbSDZGVOZ5ITw!2m2!1d-9.140948776931982!2d-77.74495020663201!3f144.67584!4f0!5f0.7820865974627469" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="centered-image"> </iframe>
+        </div>
+    </div>
+
+ <div id="seccion2" >
+<h2>Porvenir - CARHUAZ</h2>
+<img src="img/por-car.png" alt="Imagen de la Sección 2" width="800" class="centered-image">
+
+<p class="centered-text" >¡Prepárate para un festín de sabores en Carhuaz que no puedes perderte! El Helado Porvenir es el tesoro mejor guardado de esta encantadora ciudad, y te invita a sumergirte en un mundo de incomparable sabor.<br>Este lugar es mucho más que una heladería; es una experiencia gastronómica que deleitará tus papilas gustativas. Cada cucharada de Helado Porvenir es una explosión de sabores frescos y auténticos, con ingredientes de calidad que se mezclan cuidadosamente para crear delicias únicas.</p>
+
+<div class="map-container">
+<!-- Inserta aquí el mapa de Google Maps para la Sección 3 -->
+<iframe src="https://www.google.com/maps/embed?pb=!4v1694150478385!6m8!1m7!1sCAoSLEFGMVFpcE9VUFNfdFlpVXgtS3NTQTJsei1qa1FBWHoxZWJkUmR3VERreTVr!2m2!1d-9.2814215!2d-77.6460694!3f7.987162728583562!4f-3.586484043343191!5f0.7820865974627469" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="centered-image"></iframe>
+</div>
+</div>
+<div id="seccion3" >
+<h2>Porvenir - HUARAZ</h2>
+<img src="img/por-hua.png" alt="Imagen de la Sección 3" width="800" class="centered-image">
+
+<p class="centered-text" >Bienvenidos a Huaraz, "La muy generosa ciudad", donde la generosidad también se refleja en sus deliciosos tesoros culinarios, y uno de los más destacados es el Helado Porvenir.<br>
+        Este rincón de placer helado es una verdadera joya escondida en la ciudad, donde la generosidad de los sabores se une a la generosidad de su gente. Cada cucharada de Helado Porvenir es como un regalo para tus papilas gustativas, con una gama de sabores que te harán sonreír desde el primer bocado.
+</p>
+
+<div class="map-container">
+<!-- Inserta aquí el mapa de Google Maps para la Sección 3 -->
+<iframe src="https://www.google.com/maps/embed?pb=!4v1694151747495!6m8!1m7!1su1pIVqbwyftAnTH-27gqgQ!2m2!1d-9.531281203215034!2d-77.52315997815208!3f289.68372040673813!4f-5.311175356866215!5f1.846951071922497" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="centered-image"></iframe>
+</div>
+</div>
+</div>
+</body>
+</html>
